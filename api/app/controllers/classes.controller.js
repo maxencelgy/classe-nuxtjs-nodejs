@@ -20,8 +20,11 @@ exports.getAll = (req, res) => {
 // create
 exports.create = (req, res) => {
     const classes = new Classes({
-        title: req.body.title,
-        time: req.body.temps,
+        title: req.title,
+        nb_eleves: req.nb_eleves,
+        id_programme: req.id_programme,
+        id_prof: req.id_prof,
+        reservations_date: req.reservations_date,
     });
 
     classes.save(classes)
