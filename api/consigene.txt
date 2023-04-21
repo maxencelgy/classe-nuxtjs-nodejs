@@ -1,0 +1,8 @@
+Crée un projet nodejs/express
+Vous devrez developper une appli,
+de gstion de salle de classe, vous devrez developper une api en nodejs et express et un front en nuxt
+Vous sera demandez de crée une application complète pour developper cette solution
+Chaque classe peut être reserver par un prof et assigner des élèves ainsi qu'un programme a celle ci
+
+Impératif : Utiliser la librairie passport pour l'authentification, utiliser une librairie d'upload de fichier pour uploader les programmes de cours par classe
+Attention : Gerez les droits utilisateur, un utilisateur peut etre un élèves comme un prof comme un membre du staff
